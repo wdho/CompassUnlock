@@ -1,0 +1,12 @@
+{
+    "required": false,
+    "minVersion": "0.8.5",
+    "package": "com.compassunlock.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "PlayerUtilsMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
