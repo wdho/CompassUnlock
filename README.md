@@ -1,6 +1,8 @@
 # CompassUnlock
 
-**Explorer's Compass 的全员传送附属模组 / A teleport-unlock addon for Explorer's Compass**
+**Explorer's Compass 的全员传送附属模组**
+
+**语言：** 中文 · [English](README_EN.md)
 
 ---
 
@@ -14,13 +16,6 @@
 > (DeepSeek Harness / `deepseek-flash`).** The decision-maker (**wdho**) set the requirements, chose the approach and
 > reviewed the result. Please read the code yourself — the core logic is about 10 lines — and read
 > **[DISCLAIMER.md](DISCLAIMER.md)** first.
-
----
-
-> English summary: a small server-side companion mod for Minecraft **1.20.1 Forge**. It mixes into
-> `PlayerUtils#canTeleport` of [Explorer's Compass](https://github.com/MattCzyr/ExplorersCompass) so that
-> **every player** can teleport to a located structure, instead of only creative / opped / cheat-mode players.
-> Install it on the server only — clients need nothing beyond Explorer's Compass itself.
 
 ---
 
