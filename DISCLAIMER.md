@@ -14,7 +14,7 @@
 | --- | --- |
 | 生成工具 | DeepSeek Harness（模型：`deepseek-flash`） |
 | 生成时间 | 2026 年 |
-| 人类角色 | **wdho** —— 提出需求、确定技术方向、选择目标环境、审核并决定最终产物 |
+| 决策者 | **wdho** —— 提出需求、确定技术方向、选择目标环境、审核并决定最终产物 |
 
 #### 具体分工
 
@@ -24,8 +24,8 @@
 | `build.gradle` / `gradle.properties` / `settings.gradle` | **AI** |
 | `mods.toml` / `compassunlock.mixins.json` / `pack.mcmeta` | **AI** |
 | `README.md` 与本文件 | **AI** |
-| 反编译分析、字节码比对、真实服务器启动验证 | **AI 执行**，人类确认结论 |
-| 需求定义、方案取舍、目标游戏版本选择、仓库公开与发布决定 | **人类** |
+| 反编译分析、字节码比对、真实服务器启动验证 | **AI 执行**，决策者确认结论 |
+| 需求定义、方案取舍、目标游戏版本选择、仓库公开与发布决定 | **决策者** |
 
 #### 这意味着什么
 
@@ -76,7 +76,7 @@
 | --- | --- |
 | Tool | DeepSeek Harness (model: `deepseek-flash`) |
 | Year | 2026 |
-| Human role | **wdho** — set the requirements, chose the technical approach and target environment, reviewed and decided the final artefacts |
+| Decision-maker | **wdho** — set the requirements, chose the technical approach and target environment, reviewed and decided the final artefacts |
 
 #### Who did what
 
@@ -86,8 +86,8 @@
 | `build.gradle` / `gradle.properties` / `settings.gradle` | **AI** |
 | `mods.toml` / `compassunlock.mixins.json` / `pack.mcmeta` | **AI** |
 | `README.md` and this file | **AI** |
-| Decompilation, bytecode comparison, live-server verification | **performed by AI**, conclusions confirmed by the human |
-| Requirements, design trade-offs, target game version, publishing decisions | **Human** |
+| Decompilation, bytecode comparison, live-server verification | **performed by AI**, conclusions confirmed by the decision-maker |
+| Requirements, design trade-offs, target game version, publishing decisions | **Decision-maker** |
 
 #### What this means for you
 
