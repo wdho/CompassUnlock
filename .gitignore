@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+
+# Dev run directory (server/client run dirs, worlds, logs)
+run/
+run-data/
+
+# Local archives of the project folder
+/CompassUnlock.zip
+*.7z
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.eclipse/
+.settings/
+bin/
+.classpath
+.project
+.vscode/
+
+# OS / misc
+Thumbs.db
+Desktop.ini
+*.log
